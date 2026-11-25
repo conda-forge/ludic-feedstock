@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: ludic
-  version: "1.0.4"
+  version: "1.1.0"
   python_min: "3.14"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: a8a9aab9c17480d382e045d3bb71e5e041509ed6e47e1ce351452376f16d0d12
+  sha256: b2fe716e0ea80cd0a4378bdec6b13132ee8d567b8de94a7bdd5631fd3c3d461a
 
 build:
   number: 0
